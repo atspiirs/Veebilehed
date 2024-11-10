@@ -1,31 +1,40 @@
 head{
     background-color:#6eaaff;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
 }
 
 
 body{
 background-color:#7096cc;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family:'Lucida Sans';
 font-size: medium;
-text-align: center;
 margin: 50px;
 line-height: 30px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .link1{
-position: absolute;
-top: 150px;
-left: 335px;
+text-align: center;
 }
 
 img{
-border-width:thin;
-border-color: blue;
+border: 5px solid #555;
 }
 
 table, th, td {
 border: 2px solid;
 background-color: azure;
-margin-left:275px;
+}
+
+ol, li, h2 {
+    text-align: left;
 }
